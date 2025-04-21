@@ -1,4 +1,4 @@
-<pre> ```plaintext
+```plaintext
 
  (                                                        
  )\ )                             (                       
@@ -10,7 +10,7 @@
  |___/  |_|   \___/ | .__/  (_) \__,_|  |_|   \___/ \___/ 
                     |_|                                   
 
-``` </pre>
+```
 # 🎁 drop.droo
 
 **A tiny case-opening simulator built with pure chaotic energy.**  
