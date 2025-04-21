@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Lunar Requiem",
+    "price": 10,
+    "image": "img/case.png",
+    "tag": "new"
+  },
+  {
+    "id": 2,
+    "title": "Silver Crescent",
+    "price": 56,
+    "image": "img/case.png",
+    "tag": null
+  },
+  {
+    "id": 3,
+    "title": "Midnight Vow",
+    "price": 140,
+    "image": "img/case.png",
+    "tag": null
+  },
+  {
+    "id": 4,
+    "title": "Shadow Phalanx",
+    "price": 366,
+    "image": "img/case.png",
+    "tag": "hot"
+  }
+]

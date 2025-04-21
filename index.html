@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DROP.DROO - Case opening</title>
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <div class="header-left">
+        <div class="logo">
+          <!-- <img src="img/logo.svg" alt="Magic Drop" class="logo-img" /> -->
+          <span class="logo-text">DROP.DROO</span>
+        </div>
+        <nav class="main-nav">
+          <a href="index.html" class="nav-item active">
+            <i class="fas fa-box-open"></i> Cases
+          </a>
+          <a href="inventory.html" class="nav-item">
+            <i class="fas fa-box"></i>inventory
+          </a>
+        </nav>
+      </div>
+      
+      <div class="header-right">
+      <div class="user-balance">
+        <div class="balance-icon">
+          <i class="fas fa-coins"></i>
+        </div>
+        <div class="balance">Balance: $<span id="navBalance"></span></div>
+      </div>
+    </div>
+    </header>
+    
+    <main class="main-content">
+      
+      <section class="filters">
+        <div class="filter-container">
+          <div class="search-filter">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Name..." class="search-input">
+          </div>
+          
+          <div class="price-range">
+            <div class="price-inputs">
+              <input type="number" value="0" min="0" class="price-min">
+              <span class="price-separator">-</span>
+              <input type="number" value="1000" min="0" class="price-max">
+            </div>
+          </div>
+          
+          <div class="price-slider-container">
+            <div class="price-slider-track">
+              <div class="price-slider-progress"></div>
+            </div>
+            <div class="price-slider-handle min-handle"></div>
+            <div class="price-slider-handle max-handle"></div>
+          </div>
+          
+          <button class="clear-btn" id="clearBtn">
+            <i class="fas fa-times"></i>
+            <span>Clear</span>
+          </button>
+        </div>
+      </section>
+      
+      <section class="featured-items">
+        <div class="featured-container" id="featuredItems">
+          <!-- Featured items by JS -->
+        </div>
+      </section>
+
+
+      <div id="caseModal" class="case-modal">
+        <!-- Modal content -->
+        <div id="caseModalContent" class="case-modal-content">
+          <!-- Här fylls innerHTML av JS -->
+        </div>
+      </div>
+
+
+      <!-- HTML -->
+<div id="itemModal" class="hidden item-modal">
+  <div class="item-modal-content">
+    <button id="itemModalClose" class="modal-close">&times;</button>
+    <img id="itemModalImage" src="" alt="" class="item-modal-image" />
+    <h3 id="itemModalTitle" class="item-modal-title"></h3>
+    <p id="itemModalPrice" class="item-modal-price"></p>
+    <button id="itemModalSell" class="item-modal-sell">Sell</button>
+    <div class="item-modal-actions">
+      <button id="itemModalKeep" class="item-modal-btn keep">Keep</button>
+      <button id="itemModalPlayAgain" class="item-modal-btn play-again">Play Again</button>
+    </div>
+  </div>
+</div>
+
+    </main>
+  </div>
+  
+  <!-- Load your data and components in plain JS order -->
+  <script src="js/data/weapons.js"></script>
+
+  <script src="js/components/featured-items.js"></script>
+  <script src="js/components/filter.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/components/balance.js"></script>
+  <script src="js/components/inventory.js"></script>
+  <script src="js/components/modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "1": [
+    { "id": "w1", "title": "Desert Eagle | Crimson Fossil", "price": 3.50, "chance": "50", "image": "./img/crimsonfossil.png" },
+    { "id": "w2", "title": "Glock-18 | Sunburn", "price": 3.50, "chance": "50", "image": "./img/sunburn.png" }
+  ],
+  "2": [
+    { "id": "k1", "title": "Knife | Hunter's Edge", "price": 120.00, "chance": "40", "image": "./img/huntersedge.png" },
+    { "id": "k2", "title": "Knife | Savage Spikes", "price": 80.00, "chance": "60", "image": "./img/savagespikes.png" }
+  ],
+  "3": [
+    { "id": "w3", "title": "Glock-18 | Transmitter", "price": 2.00, "chance": "80", "image": "./img/transmitter.png" },
+    { "id": "w4", "title": "AK-47 | Emerald Vain", "price": 15.00, "chance": "20", "image": "./img/emeraldvain.png" }
+  ],
+  "4": [
+    { "id": "w5", "title": "AK-47 | Plum Blossom", "price": 18.00, "chance": "20", "image": "./img/plumblossom.png" },
+    { "id": "w6", "title": "M4a4 | Desert Strike", "price": 2.50, "chance": "80", "image": "./img/desertstrike.png" }
+  ]
+}
