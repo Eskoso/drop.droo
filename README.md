@@ -1,7 +1,26 @@
+
+ (                                                        
+ )\ )                             (                       
+(()/(    (                        )\ )   (                
+ /(_))   )(     (    `  )        (()/(   )(     (     (   
+(_))_   (()\    )\   /(/(         ((_)) (()\    )\    )\  
+ |   \   ((_)  ((_) ((_)_\        _| |   ((_)  ((_)  ((_) 
+ | |) | | '_| / _ \ | '_ \)  _  / _` |  | '_| / _ \ / _ \ 
+ |___/  |_|   \___/ | .__/  (_) \__,_|  |_|   \___/ \___/ 
+                    |_|                                   
+
+
 # 🎁 drop.droo
 
 **A tiny case-opening simulator built with pure chaotic energy.**  
 No frameworks. No backends. Just HTML, CSS, JS.
+
+---
+
+## 🌐 Live Demo
+
+Wanna spin a case and test your luck?  
+Check it out here: [🔗 drop.droo Demo](https://dropdroo.netlify.app/)
 
 ---
 
